@@ -1,0 +1,106 @@
+Product Requirements Document (PRD)
+Project Title: Doctor Appointment Booking & Consultation Portal
+The **Doctor Appointment Booking & Consultation Portal** is a full-stack web application designed
+to provide an easy and efficient way for patients to book doctor appointments and consult online.
+The portal aims to provide an interactive, user-friendly, and responsive interface accessible to all
+users. The project will include a dedicated database, a React-based frontend, and Python-based
+backend logic for CRUD operations. The application will have three distinct user roles: Doctor,
+Patient, and Admin (system owner). The interface inspiration is drawn from Practo’s design
+philosophy (https://www.practo.com/consult) to ensure a clean, intuitive, and engaging experience.
+
+Objective
+To develop a modern, responsive, and highly interactive Doctor Appointment Booking &
+Consultation Portal using **React for the frontend** and **Python for the backend**, ensuring
+seamless user experience, efficient appointment management, and secure data handling.
+
+Key Features
+• **Role-Based Login System:** Separate login portals for Patients, Doctors, and Admins.
+• **Patient Dashboard:** Book appointments, view history, consult online, and manage medical
+records.
+• **Doctor Dashboard:** View appointments, manage availability, and consult with patients.
+• **Admin Panel:** Manage users, doctors, and system reports.
+• **Online Consultation:** Enable text or video consultations.
+• **Appointment Management:** Real-time booking, cancellation, and notifications.
+• **Search Functionality:** Filter doctors by specialization, location, and availability.
+• **Interactive UI:** Engaging and intuitive React components for better accessibility.
+• **Database Integration:** Store all user data, appointments, and consultations securely.
+• **Security:** Authentication, validation, and encrypted storage of credentials.
+
+Technology Stack
+Component
+
+Technology Used
+
+Frontend
+
+React.js, HTML5, CSS3, JavaScript, Bootstrap / Tailwind CSS
+
+Backend
+
+Python (Flask or FastAPI) for CRUD and logic handling
+
+Database
+
+MySQL / MongoDB
+
+Authentication
+
+JWT-based secure login system
+
+Hosting
+
+Localhost / Cloud (optional for demonstration)
+
+Evaluation Breakdown
+Component
+
+Marks
+
+Details
+
+Front End Development
+
+2.5
+
+Built using React with an interactive and intuitive UI.
+
+Back End Development
+
+2.5
+
+Implemented in Python for CRUD operations and logic.
+
+Implementation
+
+3
+
+Full integration of frontend, backend, and database.
+
+Report
+
+2
+
+Detailed project report and case study.
+
+System Requirements
+**Minimum Requirements:**
+• Intel i5 Processor or above
+• 8 GB RAM
+• Node.js 18+ installed
+• Python 3.10+ installed
+• VS Code as IDE
+• MySQL 
+**Development System Used:**
+• Device Name: Achintya09
+• Processor: 13th Gen Intel(R) Core(TM) i7-1355U @ 1.70 GHz
+• Installed RAM: 16 GB
+• System Type: 64-bit OS, x64-based processor
+• Operating System: Windows 11
+• IDE: Visual Studio Code
+
+References
+• Practo Consultation Portal: https://www.practo.com/consult
+• React Documentation: https://react.dev
+• Flask / FastAPI Documentation: https://flask.palletsprojects.com / https://fastapi.tiangolo.com
+
+

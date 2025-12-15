@@ -1,0 +1,175 @@
+Product Requirements Document (PRD)
+
+Project Title: Doctor Appointment Booking & Consultation Portal
+Course: Full Stack Web Development
+
+Evaluation Components (Total Marks - 10):
+
+Front End Development – 2.5 Marks
+
+Back End Development – 2.5 Marks
+
+Implementation – 3 Marks
+
+Report – 2 Marks
+
+1. Objective
+
+To develop a user-friendly and fully functional Doctor Appointment Booking & Consultation Portal that allows patients to book appointments and consult doctors online.
+The portal will support three user types — Admin, Doctor, and Patient.
+The focus is on simplicity, intuitiveness, and a modern, engaging UI inspired by Practo.
+
+2. System Overview
+
+Frontend: React.js
+
+Backend: Python (CRUD operations)
+
+Database: MySQL (dr_portal)
+
+Authentication: Login/Signup for Admin, Doctor, and Patient
+
+Hosting: Local deployment
+
+3. System Architecture
+Frontend (React)
+     ↓
+Backend (Python APIs)
+     ↓
+MySQL Database (dr_portal)
+
+4. Key Features
+4.1 Common Features
+
+Login & Signup for all user roles
+
+Password encryption and validation
+
+Interactive, responsive UI
+
+Error handling and form validations
+
+4.2 Patient Portal
+
+Book, cancel, or reschedule appointments
+
+View doctor availability, details, and fees
+
+Optional chat-based consultation (future scope)
+
+4.3 Doctor Portal
+
+Manage appointments and availability
+
+Approve or decline consultations
+
+Maintain consultation history
+
+4.4 Admin Portal
+
+Approve or remove doctor accounts
+
+Manage users and appointments
+
+Monitor feedback and logs
+
+5. Database Design (Schema Overview Only)
+
+Database Name: dr_portal
+
+Table Name	Columns
+admin	admin_id, username, password
+doctor	doctor_id, name, specialization, email, password, availability, fees
+patient	patient_id, name, email, password, age, gender, phone
+appointments	app_id, doctor_id, patient_id, date, time, status
+feedback	feedback_id, user_id, message, rating
+6. Technology Stack
+Component	Technology	Version
+Frontend	React.js	v18+
+Backend	Python	v3.12
+Framework	Flask / FastAPI	Latest
+Database	MySQL	v8.0
+Styling	TailwindCSS / Material UI	—
+Auth	JWT / Flask-Login	—
+Hosting	Localhost	—
+7. Functional Modules
+
+Authentication Module
+
+Appointment Management Module
+
+Doctor Management Module
+
+Patient Management Module
+
+Admin Dashboard
+
+8. UI/UX Design Notes
+
+Minimalist, clean interface (Practo-inspired)
+
+Responsive and mobile-friendly
+
+Blue-white color palette
+
+Smooth animations and feedback
+
+9. Non-Functional Requirements
+
+Load time < 2s
+
+Encrypted passwords
+
+Scalable and secure APIs
+
+Local backups and reliability
+
+10. Deliverables
+
+Fully functional React + Python + MySQL project
+
+Database schema and manual creation queries (provided separately)
+
+Setup guide and screenshots for report
+
+11. Hardware and System Requirements
+
+System:
+
+Device: Achintya09
+
+Processor: Intel i7-1355U (13th Gen)
+
+RAM: 16 GB
+
+OS: Windows 64-bit
+
+Software:
+
+Node.js (v20+)
+
+Python (v3.12)
+
+MySQL (v8.0)
+
+VS Code
+
+12. Future Scope
+
+Video consultation (WebRTC)
+
+Payment gateway
+
+Digital prescriptions
+
+Cloud deployment
+
+13. Conclusion
+
+This system bridges patients and doctors through a convenient and engaging digital experience, ensuring smooth appointment management and scalable backend integration.
+
+Prepared by:
+Achintya Dwivedi (RA2311028010026)
+Aviral Dwivedi (RA2311028010023)
+S. Rajat Pandey (RA2311028010006)
+Institution: SRM Institute of Science and Technology

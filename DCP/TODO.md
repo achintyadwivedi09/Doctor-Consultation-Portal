@@ -1,0 +1,4 @@
+- [x] Check MySQL service status
+- [x] Update password in test_db_connection.py
+- [x] Run test_db_connection.py to verify connection
+- [x] If fails, check database existence and create if needed
